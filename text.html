@@ -1,0 +1,153 @@
+<!doctype html>
+<!-- This website
+template is created by:
+Ali
+Ezadkhaha
+2018-09-11 -->	
+<html lang ="en">
+	<head>
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1">
+		<meta charset="utf-8">
+		<title>ehandel2</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<style>
+			.container {
+			display: inline-block;
+			cursor: pointer;
+			}
+			.bar1, .bar2, .bar3 {
+			width: 35px;
+			height: 5px;
+			background-color: #333;
+			margin: 6px 0;
+			transition: 0.4s;
+			}
+			.change .bar1 {
+			-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+			transform: rotate(-45deg) translate(-9px, 6px);
+			}
+			.change .bar2 {opacity: 0;}
+			.change .bar3 {
+			-webkit-transform: rotate(45deg) translate(-8px, -8px);
+			transform: rotate(45deg) translate(-8px, -8px);
+			}
+		</style>
+	</head>
+	<body>		
+		<header >
+				<h1 style="text-align:center;"><i>ehandel2.se</i></h1>
+		</header>
+		
+<!-- hyperlinks to other
+pages within the website -->
+			<nav class="responsive3" >
+				<ul id="responsive2" >
+					<li><a href="index.html">Home</a></li>
+					<li> <a href="about.html"> About Us</a></li> 
+					<li><a href="class.html">Classes </a></li>
+					<li><a href="games.html"> Games</a> </li>
+					<li> <a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+	 		 <table>
+				<tr>
+					<td  class="iBlock1">
+					<div class="responsive">
+					<ul id="responsive1" >
+						<li style="margin-bottom:20px;"><a href="index.html" style="text-decoration:none;"><b>Home</b></a></li>
+						<li style="margin-bottom:20px;"> <a href="about.html"style="text-decoration:none;"><b> About Us</b></a></li> 
+						<li style="margin-bottom:20px;"><a href="class.html"style="text-decoration:none;"><b>Classes</b> </a></li>
+						<li style="margin-bottom:20px;"><a href="games.html"style="text-decoration:none;"><b>Classes</b></a> </li>
+						<li style="margin-bottom:20px;"> <a href="contact.html" style="text-decoration:none;"><b>Contact Us</b></a></li>
+					</ul>
+					</div>
+					</td>
+					<td>	  
+<!-- main area -->
+				<main>
+					<p>Welcome to
+					ehandel2.
+					Our mission is to help
+					our clients meet their
+					websites and games.</p>
+					<h1>Start Today!</h1>
+		<figure >
+			<div class="bild"><a href="class.html">
+				<img src="images/template4.jpg" alt="ehandel2"></a>								
+						<div class="bottom-left">amazing</div>
+						<div class="top-left">beautiful</div>
+						<div class="top-right">moon</div>
+						<div class="bottom-right">night</div>
+						<div class="centered">wow!</div>
+			</div>
+			<a href="game.html"><img src="images/template5.jpg" alt="websites and games"></a>
+			<a href="contact.html"><img src="images/template3.jpg" alt="games"></a>
+		</figure>
+		<button class="accordion"><h3>free games:Click here!</h3></button>
+		<div class="panel">			
+			<div class="mobile">
+	
+				<p><a href="w3schoolgame.html" target="_blank">A nice game from w3school </a></p>
+			</div>		
+		</div>
+		<div class="mobile">
+			<button class="accordion"><h4>Time To Contact Us:Click here!</h4></button>
+		<div class="panel">
+	
+			<p>Monday
+			- Thursday:6:00am -6:00pm<br>
+			Friday:6:00am - 4:00pm<br>
+			Saturday: 8:00am - 6:00pm<br>Sunday: Closed</p>
+		<div class="desktop">
+		<p>If you have struggled
+		with making your homepage
+		and need the motivation
+		and resources to make a
+		good homepage, contact us today.</p>
+		<p>We provide a FREE membership so you can experience the benefits of our homepage templates. </p> </div>
+		</div>
+		</div>
+			<button class="accordion">	
+			<h4>Ready to get started? Click here!</h4>
+			</button>
+		<div class="panel"> 
+		<p>We are located at:<br>
+		 postgången 1 A<br>
+		 43334, Partille</p>
+ 		<p>Phone Number<br>
+ 		<a class="mobile" href="tel:0736871550">0736871550</a></p>
+
+ 		<p>Email Address<br>
+		 <a href="hodhod212@yahoo.com">hodhod212@yahoo.com</a></p>
+		<br><br>
+		</div>
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+	
+			for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+					panel.style.display = "none";
+					} else {
+					panel.style.display = "block";
+					}
+				});
+			}
+		</script>
+			</main>
+				</td>
+			</tr>
+		</table>
+<!-- Use the footer area to add
+webpage footer content -->
+			<footer> &copy; Copyright
+			2018. All Rights Reserved. <br><a href="mailto:
+			hodhod212@yahoo.com">hodhod212@yahoo.com</a>
+			</footer>
+		</div>
+	</body>
+</html>

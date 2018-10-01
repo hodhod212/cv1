@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style sheet created by:
+Ali
+Ezadkhaha,
+2018-09-11 */
+/* Style
+for body specifies a
+background color */
+/* Style to create a fluid image */
+/* Custom, iPhone Retina */ 
+nav {
+	font-family:
+Georgia,			"Times New Roman",			serif; font-size: 1.25em; font-weight: bold; 	
+	text-align: center;margin-top:-1.5em;  
+}
+/* Style specifies padding and margins for
+unordered list */
+nav ul {
+	padding: 0; margin-top: 0.5em; 	margin-bottom: 0.5em;
+}
+/* Style for nav li specifies the background
+color, rounded corners, removes bullet style, and applies
+margins and padding for list items within the navigation */
+nav li {
+	background-color:
+#9D9D93 ; border-radius: 2em; list-style-type: none; margin: 0.3em; padding: 0.4em;
+}
+/* Style changes navigation link text color to
+white and removes the underline */
+nav li a {
+	color: #FFFFFF; text-decoration:
+none; 
+}
+@media only screen and (min-width : 320px) {
+    body {  
+      background-color: #3c267a;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	body{  background-color: #c43b7b;}
+	
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    /* your mobile css, change this as you please */
+     .responsive3 {
+		display: none;
+	}
+	body{  background-color: #21a05a;
+		width:100%;
+	}
+}
+@media only screen and (min-width : 768px) {
+	.responsive {
+		display: none;
+	}	
+	body{  background-color: #724a7c;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+   
+    body{  background-color: #3fc27a;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    /* your desktop css */
+     
+    body{  background-color: #7a2668;
+}
+}
+img {
+	max-width: 50%; 
+}
+/* Style for
+container centers the
+page and sets the element
+width */
+#container
+{
+width: 70%; margin-right:
+auto;	margin-left:
+auto;
+}
+/* Style for the header specifies
+top margin, background color, rounded corners, and centeraligns
+content */
+header			{
+  text-align: center;
+}
+/* Style for the nav specifies
+text properties */
+
+/*Style for the main element
+specifies a block display, text properties, margins,
+padding, rounded corners, and border properties */
+main {
+	display:block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em; 
+	padding:1em;
+	border-radius:2em 0 2em 0;
+	background-color:rgb(226, 66, 218);
+	border-top: solid 0.2em #009933;
+	border-bottom: solid 0.2em #009933;
+	opacity:0.85;
+}
+	/* Style
+for footer specifies font
+size, text alignment, and top margin */
+footer
+{
+	border-top: 1em;
+	border-bottom: 0em;
+	width: 100%;
+	background-color: #009933;
+	color: #000000;
+	padding-bottom: 0em;
+	font-size:.70em;
+	text-align: center;
+	margin-top: 0.1em;
+	margin-bottom: 0em;
+}
+.equip {
+ float: left;
+ padding-right: 20px;
+}
+ul{
+	margin-bottom:
+50px; list-style-position: inside;list-style:none; 
+}
+dt{
+	font-weight:
+bold; 
+}
+dd{
+	padding-bottom:
+20px;
+}
+/* Style
+specifies a horizontal
+display for navigation
+links */
+nav li {
+	 float:left; margin-left: 1%; margin-right: 1%; padding-left: 0;
+	  padding-right: 0; width:18%; white-space:nowrap;
+}
+/* Style
+specifies clear and top
+margin properties for
+the main element */
+main {
+	clear: left; margin-top: 4em;
+}
+/* Style specifies to display the desktop class */
+.desktop {
+	display: inline;
+}
+/* Style
+specifies a display,
+float, and padding for
+the equip class */
+.equip {
+	 float: left; margin-right: 1.5em; 
+}
+/* Style
+specifies a display,
+list-style-position, and
+bottom margin for the
+items class */
+.items {
+	display: block; list-style-position: inside; margin-bottom: 5em; 
+}
+/* Style specifies to display the tablet
+class */
+.tablet {
+	display: block;
+}
+/* Style specifies a font weight and top margin
+for description list terms */
+dt {
+	font-weight: bold; margin-top: 0.7em;
+
+}
+/* Style specifies a width for container */
+#container {
+	width: 80%; 
+}
+/* Style specifies margin and padding for the
+unordered list within the nav */ 
+nav ul {
+	margin: 0; padding-left:0.50%; padding-right:0.50%; 
+}
+/* Style for navigation list items specifies a
+border radius, border, margin, width, and padding */ 
+nav li {
+	border-radius: 0; border-top: solid #000000; border-bottom:solid #000000; margin-left: 0; margin-right: 0; padding: 0; 	width: 20%;
+
+}
+/* Style for navigation links specifies display
+and padding */
+nav li a {
+	display:inline-block; 	padding: 0.7em;
+}
+/* Style specifies border, shadow, margin, and
+padding for main element */
+main{
+	border-style: none; box-shadow: 0.5em 0.5em 0.5em #404040; margin-bottom:1em; margin-top: 1em;
+}
+/* Style specifies left and right padding
+for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em; padding-right: 0.5em;
+}
+/* Style specifies a bottom margin for the
+items class */
+.items {
+	margin-bottom: 6em; 
+}
+/* Style
+rules for pseudo-classes
+*/ 
+nav li a:link { color: #FFFFFF; }
+nav li a:visited { color: #FFFF99; }
+nav li a:hover { color: #FFFF00; font-style:italic; }
+nav li a:active { color: #6600CC; }
+/* Style
+specifies a gradient for
+the body element */
+#responsive1 {
+	list-style-type: none;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+/* Container holding the image and the text */
+
+.bild {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8%;
+    left: 2%;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8%;
+    right: 52%;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8%;
+    right: 52%;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.iBlock1 {
+	background-color: #9D9D93;
+	padding-bottom:95%;
+	margin: 5px;
+	border: 2px;
+	border-radius: 8px;
+	border-color: #000000 
+}
+.iBlock2 {
+	background-color: #9D9D93;
+	padding-top:4px;
+	padding-bottom: 1450px;
+	margin: 0;
+	border: 1px;
+	border-radius: 8px;
+	border-color: #aea9b9
+}
+.iBlock3 {
+	background-color: #9D9D93;
+	padding-bottom:1000px;
+	margin: 5px;
+	border: 2px;
+	border-radius: 8px;
+	border-color: #000000
+}
+.iBlock4 {
+	font-size: 20px;
+	padding-bottom:86%;
+	margin: 5px;
+	border: 2px;
+	border-color: #000000
+}
+.iBlock5 {
+	background-color: #9D9D93;
+	padding-bottom:86%;
+	margin: 5px;
+	border: 2px;
+	border-radius: 8px;
+	border-color: #000000
+}
+

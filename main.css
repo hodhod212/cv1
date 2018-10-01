@@ -1,0 +1,97 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 2px;
+  flex: 1 100%;
+  border-radius: 5px;
+}
+
+.header {
+  background: rgb(59, 143, 95);
+  border-radius: 5px 5px 0px 0px;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+.footer {
+  background: lightgreen;
+  border-radius:0px 0px 5px 5px;
+}
+p::first-letter {
+  color: #e010b3;
+  font-size: large;
+}
+.aside-2 p::first-letter {
+  color: black;
+  font-size:small;
+}
+.main {
+  text-align: left;
+  background: rgb(168, 139, 164);
+  width: 60%;
+  border-radius: 0;
+}
+.aside-1 {
+  background: rgb(175, 174, 164);
+  width: 10%;
+  text-align: left;
+  border-radius: 0;
+}
+.aside-1:hover {
+  background-color: rgb(0, 183, 255);
+}
+.aside-2 {
+  background: rgb(165, 152, 158);
+  width: 10%;
+  text-align: left;
+  border-radius: 0;
+}
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
+  background-image: url("bg-img.jpg");
+  padding: 2em;
+  border-top: 1px;
+  padding-top: 1px;
+  margin-top: 1px;
+  border-bottom: 0; 
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+::selection {
+  color: red;
+  background: yellow;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(143, 24, 107);
+  color: rgb(206, 207, 157);
+}
+[title~=flower] {
+  border: 5px solid rgb(56, 150, 84);
+}
+input[type="submit"] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+  background-color: rgb(158, 58, 153);
+}
